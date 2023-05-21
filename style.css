@@ -1,0 +1,79 @@
+/* style sheet for home.html, week 8 assignment */
+
+/***************************************************************************************** element selectors */
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    text-shadow: 2px 2px 1px rgb(226, 140, 28);
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    text-shadow: 2px 2px 1px rgb(226, 140, 28);
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+ol,
+li,
+ul {
+    font-size: 25px;
+    list-style: none;
+
+}
+
+
+table.center {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(206, 199, 199);
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+/************************************************************************************ classes */
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-center {
+    margin: 10px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+
+/***************************************************************************************** id, # */
+/* making images look better
+https://www.godaddy.com/garage/6-simple-css-tricks-for-images/
+*/
+
+#box {
+    border: 15px solid rgb(2, 0, 0);
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(190, 185, 185)
+}
